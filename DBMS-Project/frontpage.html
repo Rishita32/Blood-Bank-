@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+			<title>Blood Bank Management</title>
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+			<link rel="stylesheet" type="text/css" href="frontpage.css">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>	
+			<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>	
+			<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body background="back.jpg" >
+	<div class="container-fluid">
+				<h1 align="center" style=" font-weight: 900; color:#cc0000;">Welcome To Blood Bank </h1>
+				<h3 align="center" ><i class="fas fa-quote-left "></i> Remember that the happiest people are not those getting more, but those giving more.<i class="fas fa-quote-right "></i></h3>
+				<h3 align="right" style="color:#cc0000; font-weight: 500; padding-right: 50px"> ~ H. Jackson Brown Jr.</h3>
+			<div class="topnav">
+						<a class="active" href="#home"> <i class='fas fa-home'></i> Home </a>&nbsp;&nbsp;
+						<a href="https://www.healthline.com/health/benefits-of-donating-blood"> <i class='fas fa-hand-holding-heart'></i> About</a>&nbsp;&nbsp;
+						<a data-toggle="modal" data-target="#contact"> <i class='fas fa-phone-square'></i> Contact Us</a>&nbsp;&nbsp;
+				    	<a data-toggle="modal" data-target="#manager"><i class='fas fa-user-alt'></i> Manager Login</a>
+			</div>
+			<div class="row">
+					<div class="column side">
+						
+								  <br/><br/><button onclick="function1()" class="button button1"> <span class="glyphicon glyphicon-user"></span>  Donor Login</button>
+								  <br/><br/>
+								  <button onclick="function2()" class="button button2"> <i class='fas fa-clinic-medical'></i>    Hospital Login</button>
+					</div>			 
+					<div class="column middle">
+						<br/><br/>
+						<div class="mySlides fade">	  
+							<img src="image2.jpg" style="width:100%">		 
+						</div>
+
+						<div class="mySlides fade">	  
+							<img src="image3.jpg" style="width:100%">	  
+						</div>
+						<br/><br/>
+						<div style="text-align:center">
+							  <span class="dot"></span> 
+							  <span class="dot"></span>  
+						</div>								 	
+					</div>
+					
+					<div class="column side">
+    						
+    						<div class="container mt-3 mb-3">
+								<div class="row">
+									<div class="col-md-3 offset-md-3">
+										<h4 style="color:#cc0000;">  Latest news</h4>
+											<ul class="timeline">
+												<li>
+													<a  href="https://edition.cnn.com/2020/04/02/health/coronavirus-blood-donation-guidelines/index.html">New Guildlines</a>
+													<a href="#" class="float-right">21 March, 2020</a>
+													<p>FDA changes blood donation guidelines amid urgent need for blood during coronavirus pandemic</p>
+												</li>
+												<li>
+													<a href="https://apnews.com/ffdba3a7085c30db730853669c739a7a">US eases blood donation limits for gay men due to shortage </a>
+													<a href="#" class="float-right">18 March, 2020</a>
+													<p>The US govt. Thursday eased restrictions on blood donations from gay men and other key groups</p>
+												</li>
+												<li>
+													<a href="https://www.ndtv.com/india-news/up-cops-donate-blood-to-save-elderly-mans-life-amid-covid-19-lockdown-2203238">UP cops donates blood to save Elderly Man's life</a>
+													<a href="#" class="float-right">1 April, 2020</a>
+													<p>Nilesh Kumar appealed on social media for blood donation on Sunday after his father's condition deteriorate</p>
+												</li>
+											</ul>
+									</div>
+								</div>
+							</div>
+  					</div>
+
+			</div>
+	</div>
+
+	<div class="modal fade" id="contact" role="dialog">
+    			<div class="modal-dialog">
+      					<div class="modal-content">
+        						<div class="modal-header">
+          							<button type="button" class="close" data-dismiss="modal">×</button>
+          								<h3 style="text-align: center; font-weight: 900;">Contact Details</h3>
+        						</div>
+		        				<div class="modal-body">
+		        					<div class="media">
+  										<img class="mr-3 mt-3 rounded-circle"  src="dp.jpg" style="width:120px;">
+  											<div class="media-body">
+    											<h4 class="mt-0" style="font-weight: 500; font-size: 16px">Rishita Mote<medium><i> - Manager of Pune Branch</i></medium></h4>
+    											<p style="font-size: 18px ; font-weight: 500;">Branch Details: </p>
+		      										<ul style="font-size: 16px;">
+		      											<li>Apartment 12,Sawarkar Society,Aundh,Pune</li>
+		      											<li>Timing: 10.00am to 7.00pm</li>
+		      											<li>Contact Number: 020-3454-8988 / 8087714020</li>
+		      										</ul> 
+		      								</div>
+		      						</div>
+		      					</div>
+		      			</div>
+		      	</div>
+	</div>
+	<div class="modal fade" id="manager" role="dialog">
+  <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">×</button>
+                  <h3 style="text-align: center;">Login Form</h3>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+                    <div class="card card-signin my-5">
+                      <div class="card-body">
+                  
+                        <form class="form-signin" action="managerlogin.php">
+                          <div class="form-label-group"><br/>
+                            <input type="email" name="_email" class="form-control" placeholder="Email address" required autofocus>
+                            <br/>
+                          </div>
+            
+                          <div class="form-label-group">
+                            <br/>
+                            <input type="password" name="_password" class="form-control" placeholder="Password" required>
+                            <br/>
+                          </div>
+            
+                          <div class="custom-control custom-checkbox mb-3">
+                            <input type="checkbox" class="custom-control-input" id="customCheck1"><br/>
+                            <label class="custom-control`-label" for="customCheck1">Remember password</label>
+                          </div><br/>
+                          <button class="btn btn-primary btn-lg" type="submit" name="submit">Sign in</button>
+                          
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+        </div>
+  </div>
+</div>
+ 
+<footer class="page-footer font-small cyan darken-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 py-5">
+        <div class="mb-5 flex-center">
+
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a class="fb-ic">
+            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-3x"> </i>
+          </a>&nbsp;&nbsp;&nbsp;
+       
+          <a class="tw-ic">
+            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-3x"> </i>
+          </a>&nbsp;&nbsp;&nbsp;
+      
+          <a class="gplus-ic">
+            <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-3x"> </i>
+          </a>&nbsp;&nbsp;&nbsp;
+        
+          <a class="li-ic">
+            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-3x"> </i>
+          </a>&nbsp;&nbsp;&nbsp;
+         
+          <a class="ins-ic">
+            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-3x"> </i>
+          </a>&nbsp;&nbsp;&nbsp;
+      
+          <a class="pin-ic">
+            <i class="fab fa-pinterest fa-lg white-text fa-3x"> </i>
+          </a>&nbsp;&nbsp;&nbsp;
+        </div>
+      </div>
+      
+
+    </div>
+
+
+  </div>
+  
+<br/><br/>
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://www.healthline.com/health/benefits-of-donating-blood"> Visit this website for more information</a>
+  </div>
+
+
+</footer>
+
+
+	<script>
+		
+		function function1()
+		 {
+			window.open("Donorlogin.php");
+		}
+		function function2()
+		 {
+			window.open("Hospitallogin.php");
+		}
+		
+		var slideIndex = 0;
+		showSlides();
+
+		function showSlides()
+		 {
+		  var i;
+		  var slides = document.getElementsByClassName("mySlides");
+		  var dots = document.getElementsByClassName("dot");
+		  for (i = 0; i < slides.length; i++)
+		   	{
+		    	slides[i].style.display = "none";  
+		  	}
+		  slideIndex++;
+		  if (slideIndex > slides.length) {slideIndex = 1}    
+		  for (i = 0; i < dots.length; i++) 
+		  {
+		    dots[i].className = dots[i].className.replace(" active", "");
+		    
+		  }
+		  slides[slideIndex-1].style.display = "block";  
+		  dots[slideIndex-1].className += " active";
+		  setTimeout(showSlides, 2000); 
+		}
+
+	</script>
+
+</body>
+</html>
